@@ -2,5 +2,11 @@
     "name": "Comment Eraser",
     "description": "Remove distracting comments from common websites",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "storage"
+    ]
 }
