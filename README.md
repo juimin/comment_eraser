@@ -14,3 +14,10 @@ Reference the [Chrome Developer Guide](https://developer.chrome.com/docs/extensi
 for getting started as well as loading the unpacked extension (if a packed version has not been 
 created yet)
 
+### Content Scripts
+
+The bulk of functionality is contained in the content scripts. If you wish to add support for a website
+you can add the content scripts in the appropriate directory and update the manifest.json
+
+See [here](https://developer.chrome.com/docs/extensions/mv3/content_scripts/#registration) for
+documentation

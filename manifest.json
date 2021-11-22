@@ -8,5 +8,18 @@
     },
     "permissions": [
         "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "css": [
+                "content_scripts/youtube/override.css"
+            ],
+            "js": [
+                "content_scripts/youtube/override.js"
+            ]
+        }
     ]
 }
