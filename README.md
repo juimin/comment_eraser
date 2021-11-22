@@ -2,6 +2,16 @@
 
 A chrome extension for eliminating the comments section on various websites (namely YouTube).
 
+## Usage
+
+I don't feel like going through the hassel of putting this on the chrome store so
+feel free to load this as an unpacked extension in chrome
+
+- Clone this repository
+- Go to `chrome://extensions`
+- Click `Load unpacked` and select the cloned directory
+- Reload webpages as necessary
+
 ## Inspiration
 
 This project exists because I frequently find myself scrolling to the comments to read
