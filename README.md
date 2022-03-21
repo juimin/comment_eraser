@@ -12,6 +12,9 @@ feel free to load this as an unpacked extension in chrome
 - Click `Load unpacked` and select the cloned directory
 - Reload webpages as necessary
 
+At time of writing this pretty much just works off content scripts including css and I don't
+intend to make a quick toggle.
+
 ## Inspiration
 
 This project exists because I frequently find myself scrolling to the comments to read
